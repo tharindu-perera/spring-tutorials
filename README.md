@@ -1,5 +1,5 @@
 # Spring Master Class - Journey from Beginner to Expert
-Learn the magic of Spring Framework. From IOC (Inversion of Control), DI (Dependency Injection), Application Context to the world of Spring Boot, AOP, JDBC and JPA. Get set for an incredible journey.
+Learn the magic of Spring Framework. From IOC (Inversion of Control), DI (Dependency Injection), com.Application Context to the world of Spring Boot, AOP, JDBC and JPA. Get set for an incredible journey.
 
 ## Overview
 * [Installing Eclipse, Maven and Java](#installing-tools)
@@ -19,14 +19,14 @@ Spring Framework remains as popular today as it was when I first used it 12 year
 
 ### What You will learn
 
-- You will learn the basics of Spring Framework - Dependency Injection, IOC Container, Application Context and Bean Factory.
+- You will learn the basics of Spring Framework - Dependency Injection, IOC Container, com.Application Context and Bean Factory.
 - You will understand how to use Spring Annotations - @Autowired, @Component, @Service, @Repository, @Configuration, @Primary....
 - You will understand Spring MVC in depth - DispatcherServlet , Model, Controllers and ViewResolver
 - You will use a variety of Spring Boot Starters - Spring Boot Starter Web, Starter Data Jpa, Starter Test
 - You will learn the basics of Spring Boot, Spring AOP, Spring JDBC and JPA
 - You will learn the basics of Eclipse, Maven, JUnit and Mockito
 - You will develop a basic Web application step by step using JSP Servlets and Spring MVC
-- You will learn to write unit tests with XML, Java Application Contexts and Mockito
+- You will learn to write unit tests with XML, Java com.Application Contexts and Mockito
 
 ### Requirements
 - You should have working knowledge of Java and Annotations. 
@@ -48,14 +48,14 @@ Refer each section
 - Open Eclipse 
    - File -> Import -> Existing Maven Project -> Navigate to the folder where you unzipped the zip
    - Select the right project
-- Choose the Spring Boot Application file (search for @SpringBootApplication)
-- Right Click on the file and Run as Java Application
+- Choose the Spring Boot com.Application file (search for @SpringBootApplication)
+- Right Click on the file and Run as Java com.Application
 - You are all Set
 - For help : use our installation guide - https://www.youtube.com/playlist?list=PLBBog2r6uMCSmMVTW_QmDLyASBvovyAO3
 
 ## About in28Minutes
 - At in28Minutes, we ask ourselves one question everyday. How do we help you learn effectively - that is more quickly and retain more of what you have learnt?
-- We use Problem-Solution based Step-By-Step Hands-on Approach With Practical, Real World Application Examples. 
+- We use Problem-Solution based Step-By-Step Hands-on Approach With Practical, Real World com.Application Examples. 
 - Our success on Udemy and Youtube (2 Million Views & 12K Subscribers) speaks volumes about the success of our approach.
 - While our primary expertise is on Development, Design & Architecture Java & Related Frameworks (Spring, Struts, Hibernate) we are expanding into the front-end world (Bootstrap, JQuery, Angular JS). 
 
@@ -65,7 +65,7 @@ Refer each section
 
 ### Our Approach
 - Problem Solution based Step by Step Hands-on Learning
-- Practical, Real World Application Examples.
+- Practical, Real World com.Application Examples.
 - We use 80-20 Rule. We discuss 20% things used 80% of time in depth. We touch upon other things briefly equipping you with enough knowledge to find out more on your own. 
 - We will be developing a demo application in the course, which could be reused in your projects, saving hours of your effort.
 - We love open source and therefore, All our code is open source too and available on Github.
@@ -76,7 +76,7 @@ Refer each section
 - [25 Videos and Articles for Beginners on Spring Boot](http://www.springboottutorial.com/spring-boot-tutorials-for-beginners)
 - Our Best Courses with 66,000 Students and 4,000 5-Star Ratings
   * [Java Interview Guide : 200+ Interview Questions and Answers](https://www.udemy.com/java-interview-questions-and-answers/?couponCode=JAVA_INTER_GIT)
-  * [First Web Application with Spring Boot](https://www.udemy.com/spring-boot-first-web-application/?couponCode=SPRING-BOOT-1-GIT)
+  * [First Web com.Application with Spring Boot](https://www.udemy.com/spring-boot-first-web-application/?couponCode=SPRING-BOOT-1-GIT)
   * [Spring Boot Tutorial For Beginners](https://www.udemy.com/spring-boot-tutorial-for-beginners/?couponCode=SPRING-BOOT-GIT)
   * [Mockito Tutorial : Learn mocking with 25 Junit Examples](https://www.udemy.com/mockito-tutorial-with-junit-examples/?couponCode=MOCKITO_GIT)
   * [Java EE Made Easy - Patterns, Architecture and Frameworks](https://www.udemy.com/java-ee-design-patterns-architecture-and-frameworks/?couponCode=EEPATTERNS-GIT)

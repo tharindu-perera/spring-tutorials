@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Basics" />
+        <module name="Chaptor01" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Basics" target="1.5" />
+      <module name="Chaptor01" target="1.5" />
+      <module name="database-demo" target="1.8" />
+      <module name="jdbbc_main" target="1.8" />
+      <module name="jdbbc_test" target="1.8" />
+      <module name="reactor_main" target="1.8" />
+      <module name="reactor_test" target="1.8" />
+      <module name="spring-boot_main" target="1.8" />
+      <module name="spring-boot_test" target="1.8" />
+      <module name="spring-in-5-steps" target="1.8" />
+      <module name="spring-property_main" target="1.5" />
+      <module name="spring-property_test" target="1.5" />
+      <module name="SpringBootEnvironment_main" target="1.8" />
+      <module name="SpringBootEnvironment_test" target="1.8" />
+      <module name="SpringJDBCExample_main" target="1.5" />
+      <module name="SpringJDBCExample_test" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

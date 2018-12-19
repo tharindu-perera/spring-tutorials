@@ -1,8 +1,6 @@
 package spring;
 
-import org.springframework.context.annotation.ComponentScan;
-
-@ComponentScan public class QuestionA implements Question {
+public class QuestionA implements Question {
 
     private static int id;
     private QuestionA question;
@@ -12,6 +10,11 @@ import org.springframework.context.annotation.ComponentScan;
         id++;
         System.out.println(">>> static id (inside constructor ) = " + id);
         System.out.println(">>> name (inside constructor ) =  " + name);
+    }
+
+    public QuestionA(String a, int aa) {
+
+        System.out.println(">>> a =  " + a + " aa=" + aa);
     }
 
     public QuestionA getQuestion() {
@@ -39,8 +42,7 @@ import org.springframework.context.annotation.ComponentScan;
     }
 
     public void displayInfo() {
-        System.out.println(name + question);
-        System.out.println("question=" + (question != null ? question.getName() : ""));
+        System.out.println(name + "=" + question);
 
     }
 }

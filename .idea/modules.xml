@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Chaptor02/Basics.iml" filepath="$PROJECT_DIR$/Chaptor02/Basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Basics/Chaptor01.iml" filepath="$PROJECT_DIR$/Basics/Chaptor01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Spring.iml" filepath="$PROJECT_DIR$/.idea/Spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringBootEnvironment.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringBootEnvironment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringBootEnvironment_main.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringBootEnvironment_main.iml" group="SpringBootEnvironment" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringBootEnvironment_test.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringBootEnvironment_test.iml" group="SpringBootEnvironment" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringJDBCExample.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringJDBCExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringJDBCExample_main.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringJDBCExample_main.iml" group="SpringJDBCExample" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringJDBCExample_test.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringJDBCExample_test.iml" group="SpringJDBCExample" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/reactor.iml" filepath="$PROJECT_DIR$/.idea/modules/reactor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/reactor_main.iml" filepath="$PROJECT_DIR$/.idea/modules/reactor_main.iml" group="reactor" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/reactor_test.iml" filepath="$PROJECT_DIR$/.idea/modules/reactor_test.iml" group="reactor" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-property.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-property.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-property_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-property_main.iml" group="spring-property" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-property_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-property_test.iml" group="spring-property" />
+    </modules>
+  </component>
+</project>

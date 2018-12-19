@@ -1,8 +1,9 @@
 package spring;
 
-import org.springframework.context.annotation.ComponentScan;
+import org.springframework.stereotype.Service;
 
-@ComponentScan public class QuestionB implements Question {
+@Service
+public class QuestionB implements Question {
 
     private static int id;
     private QuestionB question;
