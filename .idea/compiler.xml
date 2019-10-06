@@ -6,25 +6,30 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Basics" />
-        <module name="Chaptor01" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Basics" target="1.5" />
-      <module name="Chaptor01" target="1.5" />
-      <module name="database-demo" target="1.8" />
-      <module name="jdbbc_main" target="1.8" />
-      <module name="jdbbc_test" target="1.8" />
+      <module name="AOP-Basics_main" target="1.8" />
+      <module name="AOP-Basics_test" target="1.8" />
+      <module name="Basics01" target="1.5" />
+      <module name="Basics_main" target="1.5" />
+      <module name="Basics_test" target="1.5" />
+      <module name="DI_With_annotation_main" target="1.5" />
+      <module name="DI_With_annotation_test" target="1.5" />
+      <module name="DI_with_xml_main" target="1.5" />
+      <module name="DI_with_xml_test" target="1.5" />
+      <module name="org.springframework.samples-Basics_main" target="1.5" />
+      <module name="org.springframework.samples-Basics_test" target="1.5" />
+      <module name="org.springframework.samples-SpringJDBCExample_main" target="1.5" />
+      <module name="org.springframework.samples-SpringJDBCExample_test" target="1.5" />
       <module name="reactor_main" target="1.8" />
       <module name="reactor_test" target="1.8" />
       <module name="spring-boot_main" target="1.8" />
       <module name="spring-boot_test" target="1.8" />
-      <module name="spring-in-5-steps" target="1.8" />
-      <module name="spring-property_main" target="1.5" />
-      <module name="spring-property_test" target="1.5" />
-      <module name="SpringBootEnvironment_main" target="1.8" />
-      <module name="SpringBootEnvironment_test" target="1.8" />
+      <module name="Spring-Junit-Basics_main" target="1.5" />
+      <module name="Spring-Junit-Basics_test" target="1.5" />
+      <module name="spring-propertysource-example_main" target="1.8" />
+      <module name="spring-propertysource-example_test" target="1.8" />
       <module name="SpringJDBCExample_main" target="1.5" />
       <module name="SpringJDBCExample_test" target="1.5" />
     </bytecodeTargetLevel>

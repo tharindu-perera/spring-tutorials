@@ -1,10 +1,7 @@
 <component name="libraryTable">
   <library name="spring-framework400">
-    <CLASSES>
-      <root url="file://$PROJECT_DIR$/lib/spring-framework400" />
-    </CLASSES>
+    <CLASSES />
     <JAVADOC />
     <SOURCES />
-    <jarDirectory url="file://$PROJECT_DIR$/lib/spring-framework400" recursive="false" />
   </library>
 </component>
