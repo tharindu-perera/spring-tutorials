@@ -1,0 +1,49 @@
+apply plugin: 'java-library'
+apply plugin: 'war'
+apply plugin: 'com.bmuschko.tomcat'
+apply plugin: 'eclipse-wtp'
+
+
+repositories {
+    jcenter()
+}
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.bmuschko:gradle-tomcat-plugin:2.4.1'
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:2.0.5.RELEASE")
+
+    }
+}
+
+
+apply plugin: 'io.spring.dependency-management'
+
+dependencies {
+    
+    def tomcatVersion = '8.0.46'
+    def springWebMvcVersion = '5.0.2.RELEASE'
+    
+    tomcat "org.apache.tomcat.embed:tomcat-embed-core:${tomcatVersion}",
+           "org.apache.tomcat.embed:tomcat-embed-logging-juli:${tomcatVersion}",
+           "org.apache.tomcat.embed:tomcat-embed-jasper:${tomcatVersion}"
+    
+    providedCompile 'javax.servlet:javax.servlet-api:4.0.0'
+	compile 'javax.servlet:jstl:1.2'
+	compile 'javax.servlet.jsp:javax.servlet.jsp-api:2.3.1'
+	compile "org.springframework:spring-webmvc:${springWebMvcVersion}"
+	compile "org.springframework:spring-test:${springWebMvcVersion}"
+
+    testImplementation 'junit:junit:4.12'
+}
+
+tomcat {
+
+	httpPort = 8080
+	enableSSL = false
+	contextPath = '/simple-spring-mvc'
+}
