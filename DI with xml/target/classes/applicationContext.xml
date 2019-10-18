@@ -7,15 +7,15 @@
 http://www.springframework.org/schema/beans/spring-beans-3.0.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
 
-    <bean id="a" class="spring.QuestionA" scope="singleton">
+    <bean id="a" class="spring.pkg1.QuestionA" scope="singleton">
         <property name="question" ref="b"/>
         <property name="name" value="xxxx"/>
     </bean>
-    <bean id="aa" class="spring.QuestionA" scope="singleton">
+    <bean id="aa" class="spring.pkg1.QuestionA" scope="singleton">
         <property name="question" ref="b"/>
         <property name="name" value="cccc"/>
     </bean>
-    <bean id="b" class="spring.QuestionB" scope="singleton">
+    <bean id="b" class="spring.pkg1.QuestionB" scope="singleton">
         <property name="name" value="bbb"/>
     </bean>
 

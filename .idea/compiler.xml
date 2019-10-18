@@ -14,6 +14,8 @@
       <module name="Basics01" target="1.5" />
       <module name="Basics_main" target="1.5" />
       <module name="Basics_test" target="1.5" />
+      <module name="Chaptor_2_main" target="1.8" />
+      <module name="Chaptor_2_test" target="1.8" />
       <module name="DI_With_annotation_main" target="1.5" />
       <module name="DI_With_annotation_test" target="1.5" />
       <module name="DI_with_xml_main" target="1.5" />
@@ -28,8 +30,14 @@
       <module name="spring-boot_test" target="1.8" />
       <module name="Spring-Junit-Basics_main" target="1.5" />
       <module name="Spring-Junit-Basics_test" target="1.5" />
+      <module name="spring-mvc-simple_main" target="1.8" />
+      <module name="spring-mvc-simple_test" target="1.8" />
+      <module name="spring-mvc_main" target="1.8" />
+      <module name="spring-mvc_test" target="1.8" />
       <module name="spring-propertysource-example_main" target="1.8" />
       <module name="spring-propertysource-example_test" target="1.8" />
+      <module name="spring-security_main" target="1.8" />
+      <module name="spring-security_test" target="1.8" />
       <module name="SpringJDBCExample_main" target="1.5" />
       <module name="SpringJDBCExample_test" target="1.5" />
     </bytecodeTargetLevel>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.springframework.org/schema/beans"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+
+    <!--<bean  name="ss" class="spring.pkg1.QuestionA" scope="singleton">-->
+
+    <!--<constructor-arg value="1" index="1"/>-->
+    <!--<constructor-arg value="Ravi Kant Soni" index="0"/>-->
+    <!--<property name="name" value="aaaaaaC"   />-->
+    <!--</bean>-->
+    <bean name="ssf" class="spring.pkg1.QuestionA" scope="singleton">
+        <property name="name" value="null"/>
+    </bean>
+
+    <bean name="b" class="spring.pkg1.QuestionB" scope="singleton">
+        <property name="question" ref="ssf"/>
+    </bean>
+
+    <bean name="bb" class="spring.pkg1.QuestionB" scope="singleton">
+        <property name="question" ref="ssf"/>
+        <property name="lists">
+            <list>
+                <ref bean="ssf"/>
+                <ref bean="ssf"/>
+
+            </list>
+        </property>
+
+    </bean>
+
+
+    <!---->
+    <!--<context:component-scan base-package="spring" />-->
+</beans>

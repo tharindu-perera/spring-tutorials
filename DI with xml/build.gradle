@@ -1,5 +1,7 @@
 apply plugin: 'java'
 apply plugin: 'maven'
+apply plugin: 'maven'
+apply plugin: 'application'
 
 group = 'org.springframework.samples'
 version = '0.0.1-SNAPSHOT'
@@ -12,7 +14,7 @@ tasks.withType(JavaCompile) {
      options.encoding = 'UTF-8'
 }
 
-
+mainClassName="spring.Spring"
 
 repositories {
 

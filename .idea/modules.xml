@@ -6,17 +6,17 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/AOP-Basics_main.iml" filepath="$PROJECT_DIR$/.idea/modules/AOP-Basics_main.iml" group="Basics" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/AOP-Basics_test.iml" filepath="$PROJECT_DIR$/.idea/modules/AOP-Basics_test.iml" group="Basics" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Basics.iml" filepath="$PROJECT_DIR$/.idea/modules/Basics.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Chaptor02/Basics01.iml" filepath="$PROJECT_DIR$/Chaptor02/Basics01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chaptor01/Basics01.iml" filepath="$PROJECT_DIR$/Chaptor01/Basics01.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Basics_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Basics_main.iml" group="Basics" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Basics_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Basics_test.iml" group="Basics" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Chaptor_2.iml" filepath="$PROJECT_DIR$/.idea/modules/Chaptor_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Chaptor_2_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Chaptor_2_main.iml" group="Chaptor_2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Chaptor_2_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Chaptor_2_test.iml" group="Chaptor_2" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/DI_With_annotation.iml" filepath="$PROJECT_DIR$/.idea/modules/DI_With_annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/DI_With_annotation_main.iml" filepath="$PROJECT_DIR$/.idea/modules/DI_With_annotation_main.iml" group="DI_With_annotation" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/DI_With_annotation_test.iml" filepath="$PROJECT_DIR$/.idea/modules/DI_With_annotation_test.iml" group="DI_With_annotation" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/DI_with_xml.iml" filepath="$PROJECT_DIR$/.idea/modules/DI_with_xml.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DI_with_xml.iml" filepath="$PROJECT_DIR$/.idea/modules/DI_with_xml.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/DI_with_xml_main.iml" filepath="$PROJECT_DIR$/.idea/modules/DI_with_xml_main.iml" group="DI_with_xml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DI_with_xml_main.iml" filepath="$PROJECT_DIR$/.idea/modules/DI_with_xml_main.iml" group="DI_with_xml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DI_with_xml_test.iml" filepath="$PROJECT_DIR$/.idea/modules/DI_with_xml_test.iml" group="DI_with_xml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/DI_with_xml_test.iml" filepath="$PROJECT_DIR$/.idea/modules/DI_with_xml_test.iml" group="DI_with_xml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Spring.iml" filepath="$PROJECT_DIR$/.idea/Spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringJDBCExample.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringJDBCExample.iml" />
@@ -34,9 +34,15 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot_main.iml" group="spring-boot" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-boot_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-boot_test.iml" group="spring-boot" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-jdbc-SpringJDBCExample.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-jdbc-SpringJDBCExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-mvc-simple.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-mvc-simple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-mvc-simple_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-mvc-simple_main.iml" group="spring-mvc-simple" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-mvc-simple_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-mvc-simple_test.iml" group="spring-mvc-simple" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-propertysource-example.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-propertysource-example.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-propertysource-example_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-propertysource-example_main.iml" group="spring-propertysource-example" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-propertysource-example_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-propertysource-example_test.iml" group="spring-propertysource-example" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-security.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-security_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-security_main.iml" group="spring-security" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spring-security_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spring-security_test.iml" group="spring-security" />
     </modules>
   </component>
 </project>

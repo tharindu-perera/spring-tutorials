@@ -3,6 +3,7 @@ package spring;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.AbstractApplicationContext;
+import spring.pkg2.MyComponent;
 
 
 public class Main {
@@ -13,11 +14,11 @@ public class Main {
 
         AbstractApplicationContext context = new AnnotationConfigApplicationContext(Config.class);
         MyComponent app = context.getBean(MyComponent.class);
-//        MyComponent app2 = context.getBean(MyComponent.class);
-        System.out.println(app);
-        logger.info("-->{}", (Object) context.getBeanDefinitionNames());
-//        System.out.println(app2);
-//        System.out.println(app.question.displayInfo());
+//        logger.info(">>"+app.question.toString());
+        for (String str : context.getBeanDefinitionNames()
+        ) {
+//            System.out.println(str);
+        }
         context.close();
     }
 }

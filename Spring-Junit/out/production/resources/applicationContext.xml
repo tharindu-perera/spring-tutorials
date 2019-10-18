@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xmlns:context="http://www.springframework.org/schema/context"
         xmlns="http://www.springframework.org/schema/beans"
+        xmlns:context="http://www.springframework.org/schema/context"
         xsi:schemaLocation="http://www.springframework.org/schema/beans
 http://www.springframework.org/schema/beans/spring-beans-3.0.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
 
-    <!--<bean id="a" class="spring.QuestionA" scope="singleton">-->
-        <!--<property name="name" value="aaaaaa"/>-->
+    <!--<bean id="a" class="spring.pkg1.QuestionA" scope="singleton">-->
+    <!--<property name="name" value="aaaaaa"/>-->
     <!--</bean>-->
-    <!--<bean id="aa" class="spring.QuestionA" scope="singleton">-->
-        <!--<property name="name" value="aaaaaa"/>-->
+    <!--<bean id="aa" class="spring.pkg1.QuestionA" scope="singleton">-->
+    <!--<property name="name" value="aaaaaa"/>-->
     <!--</bean>-->
     <!--&lt;!&ndash;<bean id="b" class="Question" scope="singleton">&ndash;&gt;-->
-  <!--&lt;!&ndash;<property name="name" value="bbbbbb"/>&ndash;&gt;-->
-  <!--&lt;!&ndash;</bean>&ndash;&gt;-->
+    <!--&lt;!&ndash;<property name="name" value="bbbbbb"/>&ndash;&gt;-->
+    <!--&lt;!&ndash;</bean>&ndash;&gt;-->
 
-    <!--<context:component-scan base-package="spring"/>-->
+    <context:component-scan base-package="spring.pkg1"/>
 </beans>

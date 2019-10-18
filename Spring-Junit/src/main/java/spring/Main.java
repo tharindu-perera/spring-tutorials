@@ -1,13 +1,10 @@
 package spring;
 
 
- import org.apache.log4j.Logger;
- import org.apache.log4j.spi.LoggerFactory;
- import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.support.AbstractApplicationContext;
-
- import java.util.Arrays;
- import java.util.Collections;
+import org.apache.log4j.Logger;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import spring.pkg1.MyComponent;
 
 
 public class Main {
@@ -15,13 +12,13 @@ public class Main {
     public static void main(String[] args) {
 
 
-        AbstractApplicationContext context = new AnnotationConfigApplicationContext(Config.class);
+//        AbstractApplicationContext context = new AnnotationConfigApplicationContext(Config.class);
+//        MyComponent app = context.getBean(MyComponent.class);
+//          app.print();
+        ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
         MyComponent app = context.getBean(MyComponent.class);
-//        MyComponent app2 = context.getBean(MyComponent.class);
-        System.out.println(app);
-        logger.info( Arrays.toString(context.getBeanDefinitionNames())   );
-//        System.out.println(app2);
-        System.out.println(app.question.displayInfo());
-        context.close();
+        app.print();
+        ((ClassPathXmlApplicationContext) context).close();
+
     }
 }
